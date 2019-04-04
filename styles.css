@@ -1,0 +1,108 @@
+body {
+	display:flex;
+	flex-wrap: wrap;
+	width:auto;
+}
+
+.header{
+    background-color: black;
+  
+}
+.header-logo1 {
+	width:25vw;
+	height:66vh;/*css3引入的"vw"和"vh"基于宽度、高度相对于窗口大小，“vw”="view width","vh=view height";
+	             以上我们成为视窗单位允许我们更接近浏览器窗口来定义大小。参照如下：
+	             .demo{width:100vw;font-size;10vw}宽度为窗口100%，字体大小为窗口的10%
+	             .demo{width:10vw;height:50vh;}宽度为窗口10%，容器高度为窗口的50%
+	             */
+	text-align: top;
+}
+
+.header-logo2 {
+	width:25vw;
+	height:66vh;
+	display: inline-block;
+}
+
+.header{
+	width:100%;
+}
+
+.header-title {
+	display: inline-block;/*行内块元素。（CSS2.1 新增的值）*/
+	margin:0px 0px 0px 30px;
+	font-size:3em;
+	color:white;
+    vertical-align:inherit;/*元数据垂直字体居中*/
+	text-align:center;/*水平字体居中*/
+	line-height: 300px;
+	box-sizing: inherit;
+}
+
+.picture{
+	text-align:center;
+}
+
+#钢铁侠Q版人物{
+	display:inline-block;/*inline-block的元素特点：
+　　将对象呈递为内联对象，但是对象的内容作为块对象呈递。对内是块，对外是内嵌元素。
+    旁边的内联对象会被呈递在同一行内，允许空格。
+    (准确地说，应用此特性的元素呈现为内联对象，周围元素保持在同一行，但可以设置宽度和高度地块元素的属性)*/
+}
+
+#钢铁侠Q版人物 span{
+	display:block;
+}
+
+#雷神Q版人物{
+	display:inline-block;
+}
+
+#雷神Q版人物 span{
+	display:block;
+}
+
+#黑豹Q版人物{
+	display:inline-block;
+}
+
+#黑豹Q版人物 span{
+	display:block;
+}
+
+#绿巨人Q版人物{
+	display:inline-block;
+}
+
+#绿巨人Q版人物 span{
+	display:block;
+}
+
+#美国队长Q版人物 {
+	display: inline-block;
+}
+
+#美国队长Q版人物 span {
+	display: block;
+}
+
+#死侍Q版人物 {
+	display: inline-block;
+}
+
+#死侍Q版人物 span {
+	display: block;
+}
+
+#蜘蛛侠Q版人物 {
+	display: inline-block;
+}
+
+#蜘蛛侠Q版人物 span {
+	display: block;
+}
+
+.piture-small{
+	width:13vw;/*如果修改为%，这里就是一个快元素*/
+}
+
