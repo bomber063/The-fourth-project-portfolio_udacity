@@ -1,0 +1,184 @@
+
+@media screen and (max-width: 950px){
+   .header-logo1 {
+	width:30vw;
+	height:33vh;/*css3引入的"vw"和"vh"基于宽度、高度相对于窗口大小，“vw”="view width","vh=view height";
+	             以上我们成为视窗单位允许我们更接近浏览器窗口来定义大小。参照如下：
+	             .demo{width:100vw;font-size;10vw}宽度为窗口100%，字体大小为窗口的10%
+	             .demo{width:10vw;height:50vh;}宽度为窗口10%，容器高度为窗口的50%
+	             */
+}
+	.header-logo2 {
+	width:20vw;
+	height:33vh;
+	display: inline-block;
+}
+	.header-title {
+	width: 35vw;
+	display: inline-block;/*行内块元素。（CSS2.1 新增的值）*/
+	font-size:3.5em;
+	color:white;
+    vertical-align:top;/*元数据垂直字体顶端，top为把元素的顶端与行中最高元素的顶端对齐，
+                        text-top把元素的顶端与父元素字体的顶端对齐,也就是换一行，下一行顶部与父元素对齐
+                        */
+	text-align:center;/*水平字体居中*/
+	line-height: 70px;/*行间距*/
+	box-sizing: inherit;
+	margin: 0px;
+	padding: 0px;
+}
+
+.piture-small{
+	width:13vw;/*如果修改为%，这里就是一个快元素*/
+}
+
+section span{
+	font-size: 80%;
+}
+
+
+
+.nav-item{
+	display:inline-block;
+	padding: 1px;
+	margin: 1px;
+	font-size: 70%;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	
+   .header-logo1 {
+	width:30vw;
+	height:33vh;/*css3引入的"vw"和"vh"基于宽度、高度相对于窗口大小，“vw”="view width","vh=view height";
+	             以上我们成为视窗单位允许我们更接近浏览器窗口来定义大小。参照如下：
+	             .demo{width:100vw;font-size;10vw}宽度为窗口100%，字体大小为窗口的10%
+	             .demo{width:10vw;height:50vh;}宽度为窗口10%，容器高度为窗口的50%
+	             */
+}
+	.header-logo2 {
+	width:20vw;
+	height:33vh;
+	display: inline-block;
+}
+	.header-title {
+	width: 35vw;
+	display: inline-block;/*行内块元素。（CSS2.1 新增的值）*/
+	font-size:3.5em;
+	color:white;
+    vertical-align:top;/*元数据垂直字体顶端，top为把元素的顶端与行中最高元素的顶端对齐，
+                        text-top把元素的顶端与父元素字体的顶端对齐,也就是换一行，下一行顶部与父元素对齐
+                        */
+	text-align:center;/*水平字体居中*/
+	line-height: 70px;/*行间距*/
+	box-sizing: inherit;
+	margin: 0px;
+	padding: 0px;
+}
+
+.piture-small{
+	width:13vw;/*如果修改为%，这里就是一个快元素*/
+}
+
+section span{
+	font-size: 50%;
+	padding: 0px;
+	margin: 0px;
+	/*overflow:hidden;表示超出隐藏
+	text-overflow:ellipsis; 内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。*/
+}
+
+
+
+.nav-item{
+	display:inline-block;
+	padding: 0px;
+	margin: 0px;
+	font-size:80%;
+
+}
+
+.nav-item a{
+    padding:2px;
+	margin: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 250px){
+	
+   .header-logo1 {
+	width:30vw;
+	height:33vh;/*css3引入的"vw"和"vh"基于宽度、高度相对于窗口大小，“vw”="view width","vh=view height";
+	             以上我们成为视窗单位允许我们更接近浏览器窗口来定义大小。参照如下：
+	             .demo{width:100vw;font-size;10vw}宽度为窗口100%，字体大小为窗口的10%
+	             .demo{width:10vw;height:50vh;}宽度为窗口10%，容器高度为窗口的50%
+	             */
+}
+	.header-logo2 {
+	width:20vw;
+	height:33vh;
+	display: inline-block;
+}
+	.header-title {
+	width: 35vw;
+	display: inline-block;/*行内块元素。（CSS2.1 新增的值）*/
+	font-size:3.5em;
+	color:white;
+    vertical-align:top;/*元数据垂直字体顶端，top为把元素的顶端与行中最高元素的顶端对齐，
+                        text-top把元素的顶端与父元素字体的顶端对齐,也就是换一行，下一行顶部与父元素对齐
+                        */
+	text-align:center;/*水平字体居中*/
+	line-height: 70px;/*行间距*/
+	box-sizing: inherit;
+	margin: 0px;
+	padding: 0px;
+}
+
+.piture-small{
+	width:13vw;/*如果修改为%，这里就是一个快元素*/
+}
+
+section span{
+	font-size: 50%;
+	padding: 0px;
+	margin: 0px;
+	/*overflow:hidden;表示超出隐藏
+	text-overflow:ellipsis; 内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。*/
+}
+
+
+.nav-item {
+	display:list-item;
+	padding: 0px;
+	margin: 0px;
+	font-size:80%;
+
+}
+
+.nav-item a{
+    padding:2px;
+	margin: 0px;
+}
+
+
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 200px;
+    position: absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-200px, 0);
+    transform: translate(-200px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 5s ease;
+}
+
+}
