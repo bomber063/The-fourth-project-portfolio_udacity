@@ -2,6 +2,15 @@ body {
 	display:flex;
 	flex-wrap: wrap;
 	width:auto;
+	font-family:Roboto;
+}
+
+
+body header nav main section {
+	box-sizing:border-box;
+	}
+main{
+	color:red;
 }
 
 .header{
@@ -9,18 +18,17 @@ body {
   
 }
 .header-logo1 {
-	width:25vw;
-	height:66vh;/*css3引入的"vw"和"vh"基于宽度、高度相对于窗口大小，“vw”="view width","vh=view height";
+	width:35vw;
+	height:33vh;/*css3引入的"vw"和"vh"基于宽度、高度相对于窗口大小，“vw”="view width","vh=view height";
 	             以上我们成为视窗单位允许我们更接近浏览器窗口来定义大小。参照如下：
 	             .demo{width:100vw;font-size;10vw}宽度为窗口100%，字体大小为窗口的10%
 	             .demo{width:10vw;height:50vh;}宽度为窗口10%，容器高度为窗口的50%
 	             */
-	text-align: top;
 }
 
 .header-logo2 {
 	width:25vw;
-	height:66vh;
+	height:33vh;
 	display: inline-block;
 }
 
@@ -29,80 +37,199 @@ body {
 }
 
 .header-title {
+	width: 35vw;
 	display: inline-block;/*行内块元素。（CSS2.1 新增的值）*/
-	margin:0px 0px 0px 30px;
-	font-size:3em;
+	font-size:3.5em;
 	color:white;
-    vertical-align:inherit;/*元数据垂直字体居中*/
+    vertical-align:top;/*元数据垂直字体顶端，top为把元素的顶端与行中最高元素的顶端对齐，
+                        text-top把元素的顶端与父元素字体的顶端对齐,也就是换一行，下一行顶部与父元素对齐
+                        */
 	text-align:center;/*水平字体居中*/
-	line-height: 300px;
+	line-height: 70px;/*行间距*/
 	box-sizing: inherit;
+	margin: 0px;
 }
+
+.top{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	color:red;
+}
+
+.nav{
+	width: 100%;
+	border:3px solid red; 
+}
+
+.nav-item{
+	display:inline-block;
+
+}
+.nav a{
+	text-decoration: none;/*下划线删除*/
+	margin: 2.5em;
+}
+
+table,th,td{
+	border: 3px solid red;
+	border-collapse:collapse;/*表格重叠部分*/
+}
+
+td{
+	text-align: center;
+}
+.th1{
+		width: 6%;
+}
+.th2{
+	width: 14%;
+}
+.th3{
+	width: 10%;
+}
+
+.background{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(picture/bj.jpg);
+	/*为了添加透明度，我们使用 rgba() 函数来定义颜色结点。red green blue 最后一个a 代表透明度 
+	rgba() 函数中的最后一个参数可以是从 0 到 1 的值，它定义了颜色的透明度：
+	0 表示完全透明，1 表示完全不透明。
+
+
+	语法：<linear-gradient> = linear-gradient([ [ <angle> | to <side-or-corner> ] ,]? <color-stop>[, <color-stop>]+)
+
+<side-or-corner> = [left | right] || [top | bottom]
+
+<color-stop> = <color> [ <length> | <percentage> ]
+
+取值：
+下述值用来表示渐变的方向，可以使用角度或者关键字来设置：
+<angle>：
+用角度值指定渐变的方向（或角度）。
+to left：
+设置渐变为从右到左。相当于: 270deg
+to right：
+设置渐变从左到右。相当于: 90deg
+to top：
+设置渐变从下到上。相当于: 0deg
+to bottom：
+设置渐变从上到下。相当于: 180deg。这是默认值，等同于留空不写。
+<color-stop> 用于指定渐变的起止颜色：
+<color>：
+指定颜色。
+<length>：
+用长度值指定起止色位置。不允许负值
+<percentage>：
+用百分比指定起止色位置。
+
+说明：
+用线性渐变创建图像。
+如果想创建以对角线方式渐变的图像，可以使用 to top left 这样的多关键字方式来实现。
+用默认的渐变方向绘制一个最简单的线性渐变
+*/
+
+   /*filter:brightness(100%); 给图片应用一种线性乘法，使其看起来更亮或更暗。如果值是0%，
+                       图像会全黑。值是100%，则图像无变化。其他的值对应线性乘数效果。值超过100%也是可以的，
+                       图像会比原来更亮。如果没有设定值，默认是1。*/
+   
+     /*opacity: 1;除了rgba外 ，改元素也可以作为透明度,规定不透明度。
+                 从 0.0 （完全透明）到 1.0（完全不透明）。*/
+     /*ackground-size:cover;把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+
+                             背景图像的某些部分也许无法显示在背景定位区域中。*/
+ }
+
+.section-header{
+	margin: -3px 0px 0px 0px;/*通过外边距偏移使叠加变粗部分统一*/
+}
+
+.content{
+	margin:-3px 0px 0px 0px;
+}
+
+
+section {
+	border:3px solid red;
+}
+
 
 .picture{
 	text-align:center;
+	margin:-6px 0px 0px 0px;
+	background-color: black;
 }
 
-#钢铁侠Q版人物{
+#gtx{
 	display:inline-block;/*inline-block的元素特点：
 　　将对象呈递为内联对象，但是对象的内容作为块对象呈递。对内是块，对外是内嵌元素。
     旁边的内联对象会被呈递在同一行内，允许空格。
     (准确地说，应用此特性的元素呈现为内联对象，周围元素保持在同一行，但可以设置宽度和高度地块元素的属性)*/
 }
 
-#钢铁侠Q版人物 span{
+#gtx span{
 	display:block;
+	color:red;
 }
 
-#雷神Q版人物{
+#ls{
 	display:inline-block;
 }
 
-#雷神Q版人物 span{
+#ls span{
 	display:block;
+	color:red;
 }
 
-#黑豹Q版人物{
+#hb{
 	display:inline-block;
 }
 
-#黑豹Q版人物 span{
+#hb span{
 	display:block;
+	color:red;
 }
 
-#绿巨人Q版人物{
+#ljr{
 	display:inline-block;
 }
 
-#绿巨人Q版人物 span{
+#ljr span{
 	display:block;
+	color:red;
 }
 
-#美国队长Q版人物 {
+#mgdz {
 	display: inline-block;
 }
 
-#美国队长Q版人物 span {
+#mgdz span {
 	display: block;
+	color:red;
 }
 
-#死侍Q版人物 {
+#ss {
 	display: inline-block;
 }
 
-#死侍Q版人物 span {
+#ss span {
 	display: block;
+	color:red;
 }
 
-#蜘蛛侠Q版人物 {
+#zzx {
 	display: inline-block;
 }
 
-#蜘蛛侠Q版人物 span {
+#zzx span {
 	display: block;
+	color:red;
 }
-
+/*这里的html中用两个span与标题中的ul li CSS中加上list-style:none作用相似*/
 .piture-small{
 	width:13vw;/*如果修改为%，这里就是一个快元素*/
 }
 
+footer{
+	width:100%;
+	text-align: center;
+}
