@@ -6,5 +6,5 @@
 
 .txt 文件也建议改用 UTF-8 编码，否则在很多系统下也会是乱码。如下方法可能值得参考：
 
-* [windows环境下新建.txt文件，使其默认以UTF-8编码 - CSDN博客](https://blog.csdn.net/longintchar/article/details/61623130)
-另外，CSS 的 id 或 class 名称也都建议用英文或拼音，非常不推荐用中文。
+* [windows环境下新建.txt文件，使其默认以UTF-8编码 - CSDN博客](https://blog.csdn.net/longintchar/article/details/61623130)  
+另外，CSS 的 id 或 class 名称也都建议用英文或拼音，非常不推荐用中文。  
