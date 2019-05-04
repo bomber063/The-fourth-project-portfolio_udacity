@@ -8,3 +8,8 @@
 
 * [windows环境下新建.txt文件，使其默认以UTF-8编码 - CSDN博客](https://blog.csdn.net/longintchar/article/details/61623130)  
 另外，CSS 的 id 或 class 名称也都建议用英文或拼音，非常不推荐用中文。  
+
+## 第二次提交
+###棒极了
+html文件第五行代码
+很棒！添加 viewport <meta> 标签，为响应式布局做好准备！
