@@ -13,3 +13,9 @@
 ### 棒极了
 html文件第五行代码   
 很棒！添加 viewport <meta> 标签，为响应式布局做好准备！  
+
+## 建议修改
+代码第14行
+<h#> 标签中不推荐包裹其他标签，此处的 ul 就不应该被h1标签包裹：
+![图片](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/31632/1531701813/comp.png)
+
