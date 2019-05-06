@@ -19,3 +19,13 @@ html文件第五行代码
 <h#> 标签中不推荐包裹其他标签，此处的 ul 就不应该被h1标签包裹：
 ![图片](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/31632/1531701813/comp.png)
 
+## 语义化
+代码第21行  
+使用语义标签来使得整个 HTML 更加容易理解，很棒的做法 👍  
+推荐阅读 📚：  
+介绍了各个语义标签和一些前端的知识  
+* [Semantic HTML](http://justineo.github.io/slideshows/semantic-html/#/)  
+深入的思考和理解  
+* [关于语义化 HTML 以及前端架构的一点思考](https://www.oschina.net/translate/about-html-semantics-front-end-architecture)  
+知乎的一个回答    
+* [如何理解 Web 语义化？](https://www.zhihu.com/question/20455165)    
