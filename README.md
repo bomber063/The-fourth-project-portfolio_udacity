@@ -87,3 +87,24 @@ margin: 0;
     ...
 }
 ```
+### 第74行代码建议
+#### 建议
+* 代码规范：
+> 我们建议所有选择符和声明均需另起一行。
+不推荐：
+```
+h1, h2, h3 { 
+    font-weight: normal; 
+    line-height: 1.2; 
+}
+```
+推荐：
+```
+h1, 
+h2, 
+h3 { 
+    font-weight: normal; 
+    line-height: 1.2; 
+}
+```
+引用：[选择符和声明分隔](https://github.com/udacity/frontend-nanodegree-styleguide-zh/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D%E6%A0%B7%E5%BC%8F%E6%8C%87%E5%8D%97%20-%20CSS.md#%E9%80%89%E6%8B%A9%E7%AC%A6%E5%92%8C%E5%A3%B0%E6%98%8E%E5%88%86%E9%9A%94)
