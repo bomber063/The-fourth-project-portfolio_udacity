@@ -108,3 +108,8 @@ h3 {
 }
 ```
 引用：[选择符和声明分隔](https://github.com/udacity/frontend-nanodegree-styleguide-zh/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D%E6%A0%B7%E5%BC%8F%E6%8C%87%E5%8D%97%20-%20CSS.md#%E9%80%89%E6%8B%A9%E7%AC%A6%E5%92%8C%E5%A3%B0%E6%98%8E%E5%88%86%E9%9A%94)
+
+## 三个问题
+1. 为什么a标签既定义ID又定义class，有什么特别用处吗？
+* 对于标签，我们是可以既给它们定义id又给它们定义class的。在此处，我们定义class是为了筛选出此标签为它设定CSS样式。定义id是为了给它设置JavaScript，添加交互效果。
+* 当然，你也可以只设置id或者只设置class。没有一个绝对的标准，按照不同场景灵活处理就好
