@@ -117,3 +117,7 @@ h3 {
 2. 问题2、这里的svg是什么意思，后面的viewBox="0 0 24 24"的具体描述意义？以及styles中的描述意义？
 * 建议遇到没见过的标签或知识时，善用搜索引擎和mdn文档。我在这就不过多介绍了，阅读下方文档了解下svg吧：
 * [MDN - SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG)
+
+3. 问题3、这里的path是什么意思，styles中的path，transform-origin：0px 0px 0px代表什么意义？
+* 建议这个问题从属于svg，你可以阅读 [此链接](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial/Paths) 了解详情~
+* p.s. 今后课程当中的类似问题，推荐你在论坛提问，会有咱们的论坛mentor为你详细解答。好处是你的提问今后能够沉淀下来，帮助更多遇到同样困惑的同学~
