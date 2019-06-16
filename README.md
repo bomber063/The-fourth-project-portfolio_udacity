@@ -122,7 +122,14 @@ h3 {
 * 建议这个问题从属于svg，你可以阅读 [此链接](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial/Paths) 了解详情~
 * p.s. 今后课程当中的类似问题，推荐你在论坛提问，会有咱们的论坛mentor为你详细解答。好处是你的提问今后能够沉淀下来，帮助更多遇到同样困惑的同学~
 
-## 第三次提交
-### html审查
+## 第三次提交的html文件
+### 第一个审查
 * 棒极了
 * 整个 HTML 文档都通过了验证。👍
+
+### 24行代码
+* 建议
+> 在 [前端工程师纳米学位样式指南 - HTML](https://github.com/udacity/frontend-nanodegree-styleguide-zh/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D%E6%A0%B7%E5%BC%8F%E6%8C%87%E5%8D%97%20-%20HTML%20.md#html-%E5%BC%95%E5%8F%B7) 有建议指出：
+> 在引用属性值时，使用双引号。
+> 在编写 HTML 的时候，属性的值都推荐用双引号包含起来。记得为 nav-list 补充一对双引号～
+
