@@ -135,6 +135,6 @@ h3 {
 
 ### 138行代码
 * 棒极了
-> 有兴趣可以试试使用 [HTML Entities W3c链接](http://www.w3school.com.cn/html/html_entities.asp)补充一个版权符号 ©️，比如：
+> 有兴趣可以试试使用 [HTML Entities W3c链接](http://www.w3school.com.cn/html/html_entities.asp)补充一个版权符号 ©️，比如：  
 > &copy;
 
