@@ -143,4 +143,8 @@ h3 {
 * 棒极了
 > 利用媒体查询适配不同屏幕设备，而且断点选择也很不错。👍
 
+### 182行代码
+建议
+在编写完成之后，推荐用一些工具来美化一下整个 CSS 文档的代码格式，使其看起来更加专业。例如 [CSS Beautifier/Formatter](https://codebeautify.org/css-beautify-minify)。
+
 
